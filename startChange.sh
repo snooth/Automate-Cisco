@@ -11,6 +11,6 @@ done < ipaddresses
 while read ips
 do
 	export ips
-	./enablefunction.sh $ips
+	./invokeChange.sh $ips
 done < ipaddresses
 
